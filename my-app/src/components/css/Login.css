@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'blinker';
+  src: local('blinker'), url(../fonts/Blinker-Regular.woff) format('woff');
+}
+.Login {
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-family: blinker;
+}
+Input{
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 15px;
+  padding: 5px 5px;
+  width: 300px;
+}
+h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+.btnone{
+  margin-top: 15px;
+  width: 90px;
+  padding: 5px 5px;
+  background:linear-gradient(to right,rgb(134, 6, 113) , rgb(76, 10, 107))
+}
+h3{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.tx{
+  cursor: pointer;
+  font-size: 18px;
+}
+.tx:hover{
+  text-decoration: underline;
+  transition: 0.2s;
+  font-size: 18.5px;
+}
+.err{
+  color: red;
+  font-size: 17px;
+}
