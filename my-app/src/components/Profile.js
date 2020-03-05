@@ -1,5 +1,6 @@
 import react, { Component } from 'react'
 import './css/Profile.css'
+import {Glyphicon} from 'react-bootstrap'
 
 export default class Profile extends Component{
 
